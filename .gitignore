@@ -88,3 +88,21 @@ i18n/*/phases/
 i18n/*/.cache/
 i18n/*/.translate-cache.json
 site/langs.js
+
+
+*.bin
+*.safetensors
+*.pt
+*.onnx
+data/*.parquet
+data/*.csv
+models/
+
+# Exercise datasets downloaded while working through lessons — regenerate
+# locally, never commit.
+imdb_sample.csv
+imdb_sample.parquet
+imdb_train.csv
+imdb_train.json
+imdb_train.parquet
+sample_data.csv
